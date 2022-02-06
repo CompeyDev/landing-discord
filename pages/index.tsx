@@ -51,7 +51,7 @@ export default function Home(props: HomeProps) {
         <Card
           href={"https://twitter.com/DevComp_"}
           description="Follow my twitter"
-          title="Discord"
+          title="Twitter"
         />
         <Card
           description="Subscribe"
