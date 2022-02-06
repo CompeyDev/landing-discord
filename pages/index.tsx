@@ -45,23 +45,13 @@ export default function Home(props: HomeProps) {
           "rounded-md mb-10 text-center p-2 bg-green-50 text-green-500"
         }
       >
-        Hello World
+        Welcome!
       </h3>
       <div className="grid grid-cols-2 gap-2">
         <Card
           href={config.guild_invite}
           description="Join the Discord"
           title="Discord"
-        />
-        <Card
-          description="Watch My Twitch"
-          title="Twitch"
-          href="https://twitch.tv/twitch"
-        />
-        <Card
-          description="Do something here"
-          title="Another card"
-          href="https://example.com"
         />
       </div>
     </div>
