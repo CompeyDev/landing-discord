@@ -54,7 +54,7 @@ export default function Home(props: HomeProps) {
           title="Discord"
         />
         <Card
-          description="Subscrive to my YouTube"
+          description="Subscribe"
           title="YouTube"
           href="http://www.youtube.com/channel/UCh9KkPjILEebJihTG_4s-Lg"
         />
