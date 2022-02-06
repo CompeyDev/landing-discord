@@ -47,16 +47,6 @@ export default function Home(props: HomeProps) {
       >
         Welcome!
       </h3>
-      <div className="grid grid-cols-2 gap-2">
-        <Card
-          href={config.guild_invite}
-          description="Join the Discord"
-          title="Discord"
-        />
-        <Card
-          href={"https://twitter.com/DevComp_"}
-          description="Follow my twitter"
-          title="twitter"
         />
       </div>
     </div>
