@@ -45,22 +45,21 @@ export default function Home(props: HomeProps) {
           "rounded-md mb-10 text-center p-2 bg-green-50 text-green-500"
         }
       >
-        Welcome!
-      </div>
+        Hello World
       </h3>
-            <div className="grid grid-cols-2 gap-2">
-        <Card
-          href={"https://www.youtube.com/channel/UCh9KkPjILEebJihTG_4s-Lg/"}
-          description="Subscribe to my youtube"
-          title="Youtube"
-        />
+      <div className="grid grid-cols-2 gap-2">
         <Card
           href={"https://twitter.com/DevComp_"}
           description="Follow my twitter"
-          title="twitter"
+          title="Discord"
         />
+        <Card
+          description="Subscrive to my YouTube"
+          title="YouTube"
+          href="http://www.youtube.com/channel/UCh9KkPjILEebJihTG_4s-Lg"
+        />
+      </div>
     </div>
-
   );
 }
 
