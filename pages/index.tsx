@@ -47,8 +47,7 @@ export default function Home(props: HomeProps) {
       >
         Welcome!
 
-      </div>
-    </div>
+
   );
 }
 
