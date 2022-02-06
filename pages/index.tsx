@@ -34,7 +34,7 @@ export default function Home(props: HomeProps) {
       <h2 className="text-center font-bold text-5xl">{props.guild.name}</h2>
       <div className="text-center mb-10 mt-2">
         <a
-          href={config.guild_invite}
+          href="https://discord.gg/{config.guild_invite}"
           className="bg-indigo-50 font-medium mt-5 text-indigo-600 px-4 py-1.5 rounded-full inline-block"
         >
           Join {memberCount} other members on Discord
